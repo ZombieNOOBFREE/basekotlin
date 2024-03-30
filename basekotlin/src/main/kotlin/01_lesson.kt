@@ -57,7 +57,7 @@ fun main(){
         println(x)
     println("поехали")*/
 
-    var x = 1
+    /*var x = 1
 
 
     while (x <= 100){
@@ -65,8 +65,19 @@ fun main(){
             println(x)
         x++
 
-    }
+    }*/
 
+
+
+    var x = 100
+
+
+    while (x >= 0){
+        if ( x % 2 == 0)
+            println(x)
+        x--
+
+    }
 
 
 
