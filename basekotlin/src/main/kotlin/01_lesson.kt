@@ -73,7 +73,7 @@ fun main(){
 
 
     while (x >= 0){
-        if ( x % 2 == 0)
+        if ( x % 2 == 1)
             println(x)
         x--
 
