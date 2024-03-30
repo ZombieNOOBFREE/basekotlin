@@ -72,12 +72,34 @@ fun main(){
     var x = 100
 
 
-    while (x >= 0){
+   /* while (x >= 0){
         if ( x % 2 == 1)
             println(x)
         x--
 
+    }*/
+
+    /*var  f = 8
+
+    var factorial = 1
+
+    for (i in 1 .. 8){
+        factorial *= 1
+
     }
+    println("факториал числа $f = $factorial")*/
+
+
+    for (i in 1..10){
+        for(j in 1..10){
+            print(i * j)
+            print("\t")
+
+        }
+        println()
+    }
+
+
 
 
 
